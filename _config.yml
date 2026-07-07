@@ -1,0 +1,33 @@
+title: "AI시민연구소 블로그"
+description: "AI를 인간 잠재력의 가속 엔진으로 해석하는 공익형 AI 리터러시 블로그"
+url: "https://ai4tenlab.github.io"
+baseurl: "/ai-citizen-lab-wiki"
+lang: ko-KR
+timezone: Asia/Seoul
+author: "AI시민연구소 | 전승현"
+permalink: /:categories/:year/:month/:day/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  trends:
+    output: true
+    permalink: /trends/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: "AI시민연구소"
+      category: "AI Literacy"
+  - scope:
+      path: "docs/trends"
+    values:
+      layout: post
+      category: "AI Trends"
