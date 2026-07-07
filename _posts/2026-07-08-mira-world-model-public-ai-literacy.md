@@ -1,6 +1,6 @@
 ---
 title: "AI가 가상세계에서 먼저 연습한다면 무엇이 달라질까?"
-date: 2026-07-08 07:35:00 +0900
+date: 2026-07-08 07:20:00 +0900
 category: "AI Literacy"
 tags: [World Model, MIRA, Physical AI, Simulation, AI시민연구소]
 author: "AI시민연구소"
@@ -159,8 +159,8 @@ A. 기술을 설치하기보다 “AI가 답을 주는 도구”에서 “AI가 
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "AI가 가상세계에서 먼저 연습한다면 무엇이 달라질까?",
-  "datePublished": "2026-07-08T07:35:00+09:00",
-  "dateModified": "2026-07-08T07:35:00+09:00",
+  "datePublished": "2026-07-08T07:20:00+09:00",
+  "dateModified": "2026-07-08T07:20:00+09:00",
   "author": {"@type": "Organization", "name": "AI시민연구소"},
   "publisher": {"@type": "Organization", "name": "AI시민연구소"},
   "description": "Kyutai와 General Intuition의 MIRA 월드모델을 시민 눈높이에서 해석하고, 안전한 실험과 교육 시뮬레이션의 공익적 가능성을 정리합니다.",
