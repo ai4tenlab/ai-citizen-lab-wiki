@@ -6,6 +6,8 @@ tags: [OpenAI, AI Education, K12, AI Literacy, Teachers, AI시민연구소]
 author: "AI시민연구소"
 description: "OpenAI의 K-12 교사 AI Skills Jams 소식을 바탕으로, 학교 현장의 AI 연수가 시민 리터러시와 교육 격차 완화에 왜 중요한지 정리합니다."
 source_url: "https://openai.com/news/rss.xml"
+image: "/assets/images/thumbnails/2026-07-10-openai-k12-ai-skills-civic-literacy.png"
+image_alt: "교실 AI 연수와 시민 리터러시 블로그 썸네일"
 ---
 
 # 교실 AI 연수, 왜 시민 리터러시의 출발점일까?
