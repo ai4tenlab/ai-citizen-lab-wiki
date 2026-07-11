@@ -159,7 +159,7 @@ A. 최소 월 1회는 앱 설정과 사용 목적을 확인하는 것이 좋습�
     "name": "AI시민연구소"
   },
   "image": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/assets/images/thumbnails/2026-07-12-chatgpt-family-ai-literacy.png",
-  "mainEntityOfPage": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/AI%20Literacy/2026/07/12/chatgpt-family-ai-literacy/",
-  "url": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/AI%20Literacy/2026/07/12/chatgpt-family-ai-literacy/"
+  "mainEntityOfPage": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/ai%20literacy/2026/07/12/chatgpt-family-ai-literacy/",
+  "url": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/ai%20literacy/2026/07/12/chatgpt-family-ai-literacy/"
 }
 </script>
