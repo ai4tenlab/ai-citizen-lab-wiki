@@ -70,13 +70,14 @@
    - `git commit -m "feat: publish AI Citizen Lab post YYYY-MM-DD"`
    - `git push origin master`
 12. GitHub Pages URL을 확인한다.
-13. 새 글을 실제로 발행한 경우에만 Resend 뉴스레터 알림을 보낸다. 중복 발행 방지로 검증만 한 날은 이메일을 보내지 않는다.
-   - 모바일 표 대응·프리미엄 브리프형 UTF-8 안전 발송 스크립트 사용:
-     `python3 /root/hermes-utils/send_pages_publish_email_premium.py --site "AI시민연구소" --post "_posts/YYYY-MM-DD-slug.md" --url "https://ai4tenlab.github.io/ai-citizen-lab-wiki/.../"`
-   - 수신자 기본값: `ai4tenlab@gmail.com`
-   - `RESEND_API_KEY`가 없으면 스크립트가 `EMAIL_SKIPPED`를 출력하므로, 발행은 성공으로 보고하되 이메일 미발송 사유를 명시한다.
-   - 이메일에는 Premium Hero, Executive Summary, 본문 전체, 발행 URL이 포함되어야 한다.
+13. GitHub Pages URL 검증과 Resend 뉴스레터 발송은 반드시 deterministic guard로 마무리한다.
+   - URL은 `_config.yml`의 `permalink: /:categories/:year/:month/:day/:title/`를 반영한다. category에 공백이 있으면 live URL에서 `%20` 인코딩될 수 있으므로 실제 HTTP 200 URL을 확인한다.
+   - 새 글을 발행한 경우에는 아래 guard를 실행한다. 오늘 글이 이미 있더라도 이메일 marker가 없으면 guard가 1회 발송하고, marker가 있으면 `EMAIL_ALREADY_SENT`로 중복을 막는다.
+   - 반드시 `LIVE_URL_VERIFIED=yes`와 `EMAIL_STATUS=EMAIL_SENT` 또는 `EMAIL_STATUS=EMAIL_ALREADY_SENT`를 확인한다. `EMAIL_ERROR`/URL 실패면 작업을 성공으로 보고하지 말고 원인을 수정한다.
+   - 명령 예시:
+     `python3 /root/hermes-utils/verify_pages_post_and_email.py --site "AI시민연구소" --repo /root/ai-citizen-lab-wiki --post "_posts/YYYY-MM-DD-slug.md" --url "https://ai4tenlab.github.io/ai-citizen-lab-wiki/<category>/YYYY/MM/DD/<slug>/"`
+   - 수신자 기본값: `ai4tenlab@gmail.com`; 이메일에는 Premium Hero, Executive Summary, 본문 전체, 발행 URL이 포함되어야 한다.
    - 표가 있는 글은 블로그와 메일 모두에서 모바일 폭에 강제 압축하지 않고 가로 스크롤/카드형 요약으로 읽히는지 확인한다.
-13. 발행 URL, 선정 이유, 이메일 발송 결과(`EMAIL_SENT`/`EMAIL_SKIPPED`/오류)를 한국어로 간결히 보고한다.
+14. 발행 URL, 선정 이유, `LIVE_URL_VERIFIED`, `EMAIL_STATUS`, guard 출력 요약을 한국어로 간결히 보고한다.
 
 중요: 사실을 만들지 말 것. 출처 접근이 실패하면 접근 가능한 신뢰 출처로 대체하고, 실패 사실을 보고한다.
