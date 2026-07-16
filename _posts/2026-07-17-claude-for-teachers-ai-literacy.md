@@ -157,10 +157,10 @@ A. 원리는 참고할 수 있지만 서비스 제공 범위와 법·제도는 �
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/AI%20Literacy/2026/07/17/claude-for-teachers-ai-literacy/"
+    "@id": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/ai%20literacy/2026/07/17/claude-for-teachers-ai-literacy/"
   },
   "image": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/assets/images/thumbnails/2026-07-17-claude-for-teachers-ai-literacy.png",
-  "url": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/AI%20Literacy/2026/07/17/claude-for-teachers-ai-literacy/",
+  "url": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/ai%20literacy/2026/07/17/claude-for-teachers-ai-literacy/",
   "about": ["AI 리터러시", "교육 AI", "교사용 AI", "Claude for Teachers"]
 }
 </script>
