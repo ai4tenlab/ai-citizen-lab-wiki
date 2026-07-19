@@ -161,10 +161,10 @@ AI가 인간 잠재력의 가속 엔진이 되려면, 시민이 그 엔진의 �
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/AI%20Literacy/2026/07/20/current-ai-public-infrastructure/"
+    "@id": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/ai%20literacy/2026/07/20/current-ai-public-infrastructure/"
   },
   "image": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/assets/images/thumbnails/2026-07-20-current-ai-public-infrastructure.png",
-  "url": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/AI%20Literacy/2026/07/20/current-ai-public-infrastructure/",
+  "url": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/ai%20literacy/2026/07/20/current-ai-public-infrastructure/",
   "about": ["공익 AI", "AI 리터러시", "디지털 시민성", "AI 인프라"],
   "inLanguage": "ko-KR"
 }
