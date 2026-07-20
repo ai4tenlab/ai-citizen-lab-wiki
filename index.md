@@ -11,6 +11,9 @@ title: "AI시민연구소 블로그"
     <a class="button" href="{{ '/about/' | relative_url }}">연구소 소개</a>
     <a class="button ghost" href="#latest">최신 글 보기</a>
   </div>
+  <figure class="hero-visual">
+    <img src="{{ '/assets/images/hero/ai-citizen-hero.svg' | relative_url }}" alt="AI 시민 리터러시를 상징하는 네트워크 일러스트" loading="eager">
+  </figure>
 </section>
 
 <section class="principles">
