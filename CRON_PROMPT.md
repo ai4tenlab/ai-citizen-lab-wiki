@@ -83,6 +83,6 @@
      `python3 /root/hermes-utils/verify_pages_post_and_email.py --site "AI시민연구소" --repo /root/ai-citizen-lab-wiki --post "_posts/YYYY-MM-DD-slug.md" --url "https://ai4tenlab.github.io/ai-citizen-lab-wiki/<category>/YYYY/MM/DD/<slug>/"`
    - 수신자 기본값: `ai4tenlab@gmail.com`; 이메일에는 Premium Hero, Executive Summary, 본문 전체, 발행 URL이 포함되어야 한다.
    - 표가 있는 글은 블로그와 메일 모두에서 모바일 폭에 강제 압축하지 않고 가로 스크롤/카드형 요약으로 읽히는지 확인한다.
-14. 텔레그램 최종 보고는 한국어로 간결하게 한다. 반드시 완료 여부와 **확인 가능한 GitHub Pages 발행 URL**을 포함한다. 내부 후보군·점수표·선정 과정은 보고하지 않는다. 형식 예시: `✅ 발행 완료: [제목]\nURL: https://...\nLIVE_URL_VERIFIED=yes · EMAIL_STATUS=...`
+14. 텔레그램 최종 보고는 **이상 발생 시에만** 한국어로 간결하게 한다. 빌드 실패, URL 검증 실패, 이메일 발송 오류, 필수 섹션 누락, 이미지/메타데이터 오류, git push 실패 등 사용자가 조치해야 할 문제가 있을 때만 원인·영향·확인 가능한 URL/로그 요약을 보고한다. 모든 검증이 정상이고 사용자가 조치할 일이 없으면 내부적으로 완료하고 사용자에게 아무 메시지도 보내지 않는다. 내부 후보군·점수표·선정 과정은 보고하지 않는다.
 
 중요: 사실을 만들지 말 것. 출처 접근이 실패하면 접근 가능한 신뢰 출처로 대체하고, 실패 사실을 보고한다.
