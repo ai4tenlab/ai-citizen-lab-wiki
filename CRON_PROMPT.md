@@ -11,7 +11,7 @@
 4. 최근 24~48시간 내 신뢰 출처에서 AI 후보 주제 5개를 찾는다.
    - 우선순위: 공식 블로그/논문/정부·국제기구/대학·연구소 > 주요 경제지·기술지 > 일반 매체
    - OpenAI, Google AI, Anthropic, Microsoft AI, Meta AI, DeepMind, OECD, UNESCO, NIST, MIT/Stanford, Kyutai, General Intuition 등 우선
-5. 후보 5개를 반드시 점수화한다. 점수표를 내부 판단에만 쓰지 말고, 최종 보고 또는 포스팅 본문에 간단히 남긴다.
+5. 후보 5개를 반드시 점수화한다. 단, 후보군·점수표·선정 기준·선정 과정은 **내부 편집 판단용**으로만 사용하고, 공개 블로그 본문에는 절대 넣지 않는다. 구독자에게는 당일 선정된 콘텐츠만 충실하게 제공한다.
 
 ## 주제 선정 점수표 — 100점 만점
 
@@ -35,7 +35,7 @@
    - 16:9 K-드라마형 인물 중심 썸네일 생성 및 `assets/images/thumbnails/YYYY-MM-DD-slug.png` 저장
    - 3줄 요약
    - 한 문장 답변
-   - 주제 선정 점수 또는 선정 이유
+   - 공개 본문에는 주제 선정 점수, 후보 5개, 선정 이유, 내부 편집 기준을 넣지 않는다.
    - 개념 정의
    - 전문용어 쉽게 풀어쓰기: 일반인이 낯설 수 있는 AI·기술·정책·연구 용어 5~8개를 쉬운 한국어로 설명한다. 예: `딥페이크 = AI로 사람의 얼굴·목소리를 진짜처럼 바꿔 만든 이미지·영상`, `벤치마크 = AI 성능을 비교하기 위한 시험 문제집`.
    - 왜 지금 중요한가
@@ -83,6 +83,6 @@
      `python3 /root/hermes-utils/verify_pages_post_and_email.py --site "AI시민연구소" --repo /root/ai-citizen-lab-wiki --post "_posts/YYYY-MM-DD-slug.md" --url "https://ai4tenlab.github.io/ai-citizen-lab-wiki/<category>/YYYY/MM/DD/<slug>/"`
    - 수신자 기본값: `ai4tenlab@gmail.com`; 이메일에는 Premium Hero, Executive Summary, 본문 전체, 발행 URL이 포함되어야 한다.
    - 표가 있는 글은 블로그와 메일 모두에서 모바일 폭에 강제 압축하지 않고 가로 스크롤/카드형 요약으로 읽히는지 확인한다.
-14. 발행 URL, 선정 이유, `LIVE_URL_VERIFIED`, `EMAIL_STATUS`, guard 출력 요약을 한국어로 간결히 보고한다.
+14. 텔레그램 최종 보고는 한국어로 간결하게 한다. 반드시 완료 여부와 **확인 가능한 GitHub Pages 발행 URL**을 포함한다. 내부 후보군·점수표·선정 과정은 보고하지 않는다. 형식 예시: `✅ 발행 완료: [제목]\nURL: https://...\nLIVE_URL_VERIFIED=yes · EMAIL_STATUS=...`
 
 중요: 사실을 만들지 말 것. 출처 접근이 실패하면 접근 가능한 신뢰 출처로 대체하고, 실패 사실을 보고한다.
