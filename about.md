@@ -2,6 +2,7 @@
 layout: default
 title: "AI시민연구소 소개"
 permalink: /about/
+sitemap: true
 ---
 
 # AI시민연구소 소개
