@@ -1,4 +1,4 @@
-# AI시민연구소 블로그
+# AI시민연구소 | AI Citizen Lab
 
 AI시민연구소의 공익형 AI 리터러시 GitHub Pages 블로그입니다.
 

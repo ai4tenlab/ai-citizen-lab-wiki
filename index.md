@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "AI시민연구소 블로그"
+title: "AI시민연구소 | AI Citizen Lab"
 ---
 
 <section class="hero">
