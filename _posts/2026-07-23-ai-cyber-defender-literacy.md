@@ -90,6 +90,10 @@ AI 보안요원 시대의 격차는 도구를 가진 조직과 갖지 못한 조
 
 넷째, 보안 문제를 AI에게 물어볼 때 실제 고객정보, 비밀번호, API 키, 내부 서버 주소를 그대로 넣지 않아야 한다. 민감정보를 지우거나 예시 데이터로 바꿔 질문하는 습관이 필요하다.
 
+## 결론: 오늘 기억할 한 문장
+
+AI 보안요원 시대의 핵심은 더 똑똑한 도구를 갖는 것이 아니라, 시민과 조직이 AI의 도움을 받되 최종 책임과 기본 보안 습관을 놓치지 않는 데 있다.
+
 ## 자주 묻는 질문 FAQ
 
 ### Q1. Gemini 3.5 Flash Cyber는 일반인이 바로 쓸 수 있나요?
@@ -116,10 +120,6 @@ A. “문제 후보 확인 → 수정안 검토 → 테스트 환경 적용 → 
 - Google DeepMind 공식 글의 구조화 데이터: 게시일 2026년 7월 21일, 설명 “new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.”
 - NIST, “Artificial Intelligence Risk Management Framework (AI RMF 1.0).” <https://www.nist.gov/itl/ai-risk-management-framework>
 - CISA, “Secure Our World.” <https://www.cisa.gov/secure-our-world>
-
-## 결론: 오늘 기억할 한 문장
-
-AI 보안요원 시대의 핵심은 더 똑똑한 도구를 갖는 것이 아니라, 시민과 조직이 AI의 도움을 받되 최종 책임과 기본 보안 습관을 놓치지 않는 데 있다.
 
 <script type="application/ld+json">
 {
