@@ -143,7 +143,7 @@ A. 먼저 계정 관리, 백업, 개인정보 보관 위치, 사고 연락망을
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/AI%20Literacy/2026/08/22/ai-csf-prompt-literacy/"
+    "@id": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/ai%20literacy/2026/08/22/ai-csf-prompt-literacy/"
   },
   "image": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/assets/images/thumbnails/2026-08-22-ai-csf-prompt-literacy.png",
   "about": ["AI 리터러시", "사이버보안", "NIST CSF 2.0", "생성형 AI 프롬프트", "디지털 시민성"],
