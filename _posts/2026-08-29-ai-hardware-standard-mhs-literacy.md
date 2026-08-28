@@ -143,7 +143,7 @@ A. 기관이 AI 장비 자동화를 도입할 때 권한 범위, 로그 보관, 
   "image": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/assets/images/thumbnails/2026-08-29-ai-hardware-standard-mhs-literacy.png",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/AI%20Literacy/2026/08/29/ai-hardware-standard-mhs-literacy/"
+    "@id": "https://ai4tenlab.github.io/ai-citizen-lab-wiki/ai%20literacy/2026/08/29/ai-hardware-standard-mhs-literacy/"
   }
 }
 </script>
