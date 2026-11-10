@@ -129,7 +129,7 @@ AI가 읽기와 정리를 도울수록 사람은 근거를 선택하고 판단�
 
 출처 원문:
 
-[1] https://www.unesco.org/en/articles/ai-answers-you-decide-unesco-launches-new-media-and-information-literacy-curriculum
+[1] [UNESCO, “AI Answers. You Decide: UNESCO launches a new Media and Information Literacy curriculum”](https://www.unesco.org/en/articles/ai-answers-you-decide-unesco-launches-new-media-and-information-literacy-curriculum) — 2026년 11월 10일 게시, 2026년 11월 11일 KST 확인.
 
 
 ## 실제 공개 관련 글
