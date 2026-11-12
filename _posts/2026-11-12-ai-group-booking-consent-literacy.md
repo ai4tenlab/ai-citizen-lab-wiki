@@ -11,6 +11,7 @@ tags:
   - 동의와 승인
   - 공동 의사결정
 author: AI시민연구소
+citizen_article_schema: true
 description: "각자의 AI 비서에게 모임 예약을 맡길 때는 다른 사람의 요청이 최종 예약에 반영됐는지 사람이 확인해야 합니다. Anthropic의 다중 사용자·다중 에이전트 연구를 바탕으로 제안과 확정 권한, 변경 동의, 실행 결과를 나눠 살피는 시민용 점검표와 실습 방법을 정리했습니다."
 source_url: "https://alignment.anthropic.com/2026/worse-together/"
 image: /assets/images/thumbnails/2026-11-12-ai-group-booking-consent-v1.webp
