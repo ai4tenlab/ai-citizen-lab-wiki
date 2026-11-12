@@ -9,7 +9,9 @@
   {% if site.naver_site_verification %}<meta name="naver-site-verification" content="{{ site.naver_site_verification | escape }}">{% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% if page.citizen_article_schema %}
-  {% seo json_ld=false %}
+  {% capture citizen_seo %}{% seo title=false %}{% endcapture %}
+  {{ citizen_seo | split: '<script type="application/ld+json">' | first }}
+  <!-- End Jekyll SEO metadata; article schema below -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
